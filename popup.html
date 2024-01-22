@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>URL Blocker</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      border: 2px solid red;
+      background-color: #eeeeee;
+      width: 500px;
+      height: auto;
+    }
+    section{
+      padding: 10px;
+    }
+
+    button {
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: red;
+      color: white;
+    }
+
+    header {
+      color: white;
+      text-align: center;
+      background-color: red;
+      padding: 3px 0px;
+      ;
+    }
+
+    .center{
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .divButtonInline {
+      display: inline-block;
+      margin-top: 20px
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>URL Blocker</h1>
+  </header>
+  <section>
+    <div class="center">
+      URL Blocker only blocks windows opened in a new tab !
+    </div>
+    <div>
+      <input type="checkbox" id="toggleActive">
+      <label for="toggleActive">Active locker</label>
+    </div>
+    <div>
+      <h2>URL lockeds</h2>
+      <div>
+        <button id="butonCleanURL">Clean all</button>
+      </div>
+      <div class="divButtonInline">
+        <input placeholder="https://www.google.com" type="text" id="urlInput" name="url" required>
+        <button id="butonSetURL">Add URL</button>
+      </div>
+      <ul id="urlList"></ul>
+    </div>
+  </section>
+</body>
+<script src="popup.js"></script>
+
+</html>
