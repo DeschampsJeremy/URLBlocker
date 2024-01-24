@@ -1,0 +1,11 @@
+objective
+URL Blocker is an application that blocks URLs opened in a new tab according to a user-defined blacklist. This blacklist is not imported from a website, but entered manually by the user. URL Blocker does not collect any data for marketing purposes and does not share user blacklist content. It is a simple tool that closes URLs when it is in the blacklist.
+
+activeTab 
+This permission is required to access the user's active tabs. URL Blocker uses this permission in a limited way to detect the opening of tabs that should be blocked. This closes these tabs.
+
+tabs 
+The "tabs" permission is used to find the IDs of tabs blacklisted by the user. This permission is essential to close these tabs.
+
+storage
+The "storage" permission is required to store URLs to be blocked. This allows URL Blocker to detect tabs blacklisted by the user.

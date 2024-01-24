@@ -1,3 +1,4 @@
 # URL Blocker
-Author : [Jeremy Deschamps](https://www.jddev.net)
-Block URLs opened in new tabs
+Author : Jeremy Deschamps
+
+The objective of the extension is to block certain URLs blacklisted by the user
